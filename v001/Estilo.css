@@ -1,0 +1,76 @@
+  body{
+    background-color: whitesmoke;
+     font-family: 'Roboto', sans-serif;
+  } 
+
+  a 
+  {
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-content: space-between;
+    font-size: 20px;
+    line-height:40px;
+  }
+
+
+    .MenuPrincipal{
+      border: 2px solid lightslategray;
+      border-radius: 5px; 
+      list-style-type: none;
+      align-content: center;
+      width: 80%;
+      display: inline-block;
+      overflow: hidden;
+      background-color:black;
+      color: white;
+      font-weight: 200;
+    }    
+    
+        a:hover 
+        {
+            color:lightgray; 
+            text-decoration:none; 
+            cursor:pointer;  
+        }
+
+        .MenuPrincipal a:hover{
+          background-color: rgb(92, 91, 91);
+          padding: 10px 10px;
+          border-radius:5px ;
+        } 
+        
+        .MenuPrincipal a{
+          padding:10px;
+        }
+        
+
+  .Footer{
+      border: 2px inset   lightslategray;
+      background-color: black;
+      color: darkgray;
+      text-align: center;
+      align-self: end;
+      align-content: stretch;
+      justify-self: stretch; 
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  h1{
+    color: lightgray;
+    font-size: 16px;
+    font-weight: 300;
+  } 
+  h2{
+    color: darkgray;
+    font-size: 12px;
+    font-weight: 200;
+  } 
+  h3{
+    color: darkgray;
+    font-size: 10px;
+    font-weight: 100;
+  }
