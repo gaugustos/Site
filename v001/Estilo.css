@@ -7,10 +7,9 @@
   {
     color: white;
     text-decoration: none;
-    justify-content: space-evenly;
-    align-content: space-between;
     font-size: 20px;
-    line-height:40px;
+    line-height:15px;
+    padding: 10% 10% 10% 10%;  
   }
 
 
@@ -19,34 +18,23 @@
       border-radius: 5px; 
       list-style-type: none;
       align-content: center;
-      width: 80%;
+      text-align: center;
+      width: 100%;
       display: inline-block;
       overflow: hidden;
       background-color:black;
       color: white;
       font-weight: 200;
     }    
-    
-        a:hover 
-        {
-            color:lightgray; 
-            text-decoration:none; 
-            cursor:pointer;  
-        }
 
         .MenuPrincipal a:hover{
           background-color: rgb(92, 91, 91);
-          padding: 10px 10px;
-          border-radius:5px ;
+          padding: 10% 10% 10% 10%;  
+          border-radius:20px ;
         } 
-        
-        .MenuPrincipal a{
-          padding:10px;
-        }
-        
 
   .Footer{
-      border: 2px inset   lightslategray;
+      /* //border: 2px inset   lightslategray; */
       background-color: black;
       color: darkgray;
       text-align: center;
