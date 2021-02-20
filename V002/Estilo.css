@@ -1,0 +1,106 @@
+  body{
+    background-color: #24252A;
+     font-family: 'Roboto', sans-serif;
+     display: grid;
+    
+     grid-template-areas: "h h h"
+                          "e a m"
+                          "rodape rodape rodape";
+                          
+     grid-template-columns: 10% 70% 20%;
+     grid-template-rows: 8% 84% 8%;
+
+  
+  } 
+  .rodape
+{
+  
+grid-area: rodape ;
+
+align-items: center;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+
+position: relative ;
+background-color: rgb(199, 25, 25);
+}
+
+
+.artigosW
+  {
+    
+grid-area: a;
+position: relative ;
+
+align-items: center;
+justify-content: center;
+
+margin: 0 auto ;
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+  }
+  
+ 
+ .caixa {
+    position: relative ;
+    background-color: white;
+     
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 350px;
+    max-height: 500px;
+    
+    width: auto ;
+    height: auto;
+
+    border-radius: 8%;
+    
+    padding: 1px;
+    margin: 25px;
+    border-color: rgb(0,0,0);
+    border-width: 1%;
+    border-style: solid;
+
+    
+    }
+
+    
+  .espaco
+  {
+    
+  grid-area: e;
+  
+  position: relative ;
+width: 100%;
+height: 100%;
+  background-color: rgb(255, 187, 0);
+  }
+    
+.menu
+{
+  
+grid-area: m;
+
+position: relative ;
+width: 100%;
+height: 100%;
+background-color: rgb(80, 0, 230);
+}
+         
+.header
+{
+  
+grid-area: h;
+
+
+position: relative ;
+width: 100%;
+height: 100%;
+background-color: rgb(17, 231, 131);
+}
+     
+
+ 

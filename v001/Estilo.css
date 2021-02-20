@@ -1,5 +1,5 @@
   body{
-    background-color: whitesmoke;
+    background-color: #24252A;
      font-family: 'Roboto', sans-serif;
   } 
 
@@ -22,8 +22,8 @@
       width: 100%;
       display: inline-block;
       overflow: hidden;
-      background-color:black;
-      color: white;
+      background-color:#8080;
+      color: black;/*#8080;*/
       font-weight: 200;
     }    
 
@@ -35,8 +35,8 @@
 
   .Footer{
       /* //border: 2px inset   lightslategray; */
-      background-color: black;
-      color: darkgray;
+      background-color: #696969;
+      color: #474A51;
       text-align: center;
       align-self: end;
       align-content: stretch;
@@ -45,6 +45,7 @@
       left: 0;
       bottom: 0;
       width: 100%;
+      position: fixed;
   }
   
   h1{
