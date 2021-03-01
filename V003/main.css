@@ -1,0 +1,58 @@
+body{
+    background-color:#24252A; 
+    display: grid;
+font-size: 1px;
+grid-template-rows: 15vh 160vh 15vh;
+
+grid-template-areas:  "d""e""f";
+}
+
+.Cabecalho{
+    grid-area: d;
+    background-color: yellow;
+    border-radius: 3rem;
+    max-width: 70%;
+    position: relative ;
+    left: 10vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerBlog{
+    
+    grid-area: e;
+    background-color:green; 
+
+
+    display: grid;
+    grid-template-columns: 70vw 30vw;
+    
+}
+
+.Artigos{
+
+    background-color:brown; 
+    margin: 2rem;
+    border-radius: 1.5rem;
+}
+
+.Menu{
+background-color: red;
+margin: 2rem;
+border-radius: 1.5rem;
+}
+
+
+.footer{
+    grid-area: f;
+    background-color:blue; 
+    border-radius: 3rem;
+    max-width: 70%;
+    position: relative ;
+    left: 10vw;
+    align-items: center;
+    justify-content: center;
+    
+
+}
